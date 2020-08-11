@@ -1,0 +1,7 @@
+Setting ADO form Service
+
+Buka Source Code service otomotif.vbp
+
+Klik 2x pada Form Service ---> klik kanan Pada ADO1 --> pilih ADODC Properties --> sesuaikan direktori pada Use Connection String
+
+yang di rubah bagian Source=G:\App Fix\Program Service Kendaraan\DBRetail.mdb sesuaikan dengan directory dimana Source code di simpan atau Extract

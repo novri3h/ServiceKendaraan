@@ -1,0 +1,41 @@
+IF MONTH ({penjualan.JatuhTempo})=1 THEN 
+"JANUARI"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=2 THEN 
+"FEBRUARI"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=3 THEN 
+"MARET"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=4 THEN 
+"APRIL"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=5 THEN 
+"MEI"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=6 THEN 
+"JUNI" 
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=7 THEN 
+"JULI"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=8 THEN 
+"AGUSTUS"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=9 THEN 
+"SEPTEMBER"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=10 THEN 
+"OKTOBER"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=11 THEN 
+"NOVEMBER"
+ELSE
+IF MONTH ({penjualan.JatuhTempo})=12 THEN 
+"DESEMBER"
+
+==================================
+CR.Formulas(0) = "TGLAWAL='" & Format(Combo1, "dd-mmm-yyyy") & "'"
+
+CR.Formulas(0) = "TGLAWAL='" & Format(Combo2, "dd-mmm-yyyy") & "'"
+CR.Formulas(1) = "TGLAKHIR='" & Format(Combo3, "dd-mmm-yyyy") & "'"
